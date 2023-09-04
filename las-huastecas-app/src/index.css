@@ -11,9 +11,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   padding: 0;
+  font-size: 16px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* @font-face {
+  font-family: "NIBM-Regular";
+  src: local("MyFont"), url(./fonts/Nouveau_IBM.ttf) format("truetype");
+}
+
+h6 {
+  font-family: "NIBM-Regular";
+  font-size: 2rem;
+} */
