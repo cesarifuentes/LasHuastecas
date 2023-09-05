@@ -6,20 +6,18 @@ import profile from "../assets/profile.svg";
 const Header = () => {
   return (
     <nav className="">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nihil,
-      perspiciatis voluptatem ut ipsum harum sit earum minima ex obcaecati
-      repellat explicabo dolor facilis quo corporis, possimus, tempore laborum.
-      Amet.
       <div className="bg-black/[.4]">
         <div
           id="header"
           className="container flex flex-wrap items-center justify-between w-full py-4 mx-auto "
           // TODO: add extra layer of x padding
         >
+          {/* Logo - Left */}
           <div className="flex items-center ">
             <img className="" src={logo} alt="logo" />
             <h6 className="mt-1 ml-2 text-white">LAS HUASTECAS</h6>
           </div>
+          {/* Navigation - Right */}
           <div className="flex items-center justify-between space-x-10 text-white nav-menu-wrapper">
             <h5>About</h5>
             <h5>Menu</h5>

@@ -8,8 +8,9 @@ import Payment from "../pages/Payment";
 const Navigation = () => {
   return (
     <BrowserRouter>
-      <Header />
-      {/* <Header className="sticky top-0"></Header> */}
+      <div className="sticky top-0">
+        <Header></Header>
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />

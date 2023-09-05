@@ -21,6 +21,7 @@ code {
 }
 
 @font-face {
+  /* logo font */
   font-family: "NIBM-Regular";
   src: local("MyFont"), url(../fonts/Nouveau_IBM.ttf) format("truetype");
 }
@@ -31,6 +32,7 @@ h6 {
 }
 
 @font-face {
+  /* paragraph text */
   font-family: "MN-Regular";
   src: local("MyFont"), url(../fonts/Marion_Regular.ttf) format("truetype");
 }
@@ -38,4 +40,25 @@ h6 {
 h5 {
   font-family: "MN-Regular";
   font-size: 1rem;
+}
+
+.hero-bkgd-img {
+  background-image: url("../src/assets/gallery/herbs_and_spices.png");
+  background-position: center;
+}
+
+@font-face {
+  /* accent font */
+  font-family: "IND-Regular";
+  src: local("MyFont"), url(../fonts/1776_Independence.ttf) format("truetype");
+}
+
+h4 {
+  font-family: "IND-Regular";
+  font-size: 6rem;
+}
+
+h3 {
+  font-family: "MN-Regular";
+  font-size: 1.2rem;
 }
