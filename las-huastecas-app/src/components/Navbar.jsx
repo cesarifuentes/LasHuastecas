@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/logo.svg";
 import cart from "../assets/cart.svg";
 import profile from "../assets/profile.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -14,15 +15,24 @@ const Navbar = () => {
           // TODO: turn this into global style set
         >
           {/* Logo - Left */}
-          <div className="flex items-center ">
-            <img className="" src={logo} alt="logo" />
-            <h6 className="mt-1 ml-2 text-white">LAS HUASTECAS</h6>
-          </div>
+          <Link to={"/"}>
+            <div className="flex items-center ">
+              <img className="" src={logo} alt="logo" />
+              <h6 className="mt-1 ml-2 text-white">LAS HUASTECAS</h6>
+            </div>
+          </Link>
+
           {/* Navigation - Right */}
           <div className="flex items-center justify-between space-x-10 text-white nav-menu-wrapper">
-            <h5>About</h5>
-            <h5>Menu</h5>
-            <h5>Catering</h5>
+            <Link to={"/"}>
+              <h5>About</h5>
+            </Link>
+            <Link to={"/menu"}>
+              <h5>Menu</h5>
+            </Link>
+            <Link to={"/"}>
+              <h5>Catering</h5>
+            </Link>
             {/* <img className="" src={profile} alt="profile" /> */}
             <img className="" src={cart} alt="cart" />
           </div>

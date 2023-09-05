@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <BrowserRouter>
       <Header></Header>
-      <div className="sticky top-0">
+      <div className="sticky top-0 mb-[-68px]">
         <Navbar></Navbar>
       </div>
       <Routes>

@@ -62,3 +62,8 @@ h3 {
   font-family: "MN-Regular";
   font-size: 1.2rem;
 }
+
+.taco-bkgd-img {
+  background-image: url("../src/assets/gallery/tacos.png");
+  background-position: center;
+}
