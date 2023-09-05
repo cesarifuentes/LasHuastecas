@@ -9,6 +9,7 @@ const Navigation = () => {
   return (
     <BrowserRouter>
       <Header />
+      {/* <Header className="sticky top-0"></Header> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />

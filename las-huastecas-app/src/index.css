@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   font-size: 16px;
+  line-height: 1;
 }
 
 code {
@@ -19,12 +20,22 @@ code {
     monospace;
 }
 
-/* @font-face {
+@font-face {
   font-family: "NIBM-Regular";
-  src: local("MyFont"), url(./fonts/Nouveau_IBM.ttf) format("truetype");
+  src: local("MyFont"), url(../fonts/Nouveau_IBM.ttf) format("truetype");
 }
 
 h6 {
   font-family: "NIBM-Regular";
   font-size: 2rem;
-} */
+}
+
+@font-face {
+  font-family: "MN-Regular";
+  src: local("MyFont"), url(../fonts/Marion_Regular.ttf) format("truetype");
+}
+
+h5 {
+  font-family: "MN-Regular";
+  font-size: 1rem;
+}
