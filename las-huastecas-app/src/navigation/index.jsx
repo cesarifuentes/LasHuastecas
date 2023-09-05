@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "../components/Header";
+import Navbar from "../components/Navbar";
+
 import Home from "../pages/Home";
 import Cart from "../pages/Cart";
 import Menu from "../pages/Menu";
@@ -8,8 +10,9 @@ import Payment from "../pages/Payment";
 const Navigation = () => {
   return (
     <BrowserRouter>
+      <Header></Header>
       <div className="sticky top-0">
-        <Header></Header>
+        <Navbar></Navbar>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />

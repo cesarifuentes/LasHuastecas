@@ -5,8 +5,6 @@ import Button from "../../components/Button";
 const Home = () => {
   return (
     <div>
-      {/* <div></div> */}
-
       <div class="hero-bkgd-img ... flex items-center justify-center w-screen h-screen">
         <div className="text-center text-white drop-shadow-xl">
           <h4>Our Menu</h4>
