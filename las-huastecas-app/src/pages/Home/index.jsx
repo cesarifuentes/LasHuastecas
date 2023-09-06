@@ -1,6 +1,7 @@
 import React from "react";
 // import spices from "../../assets/gallery/herbs_and_spices.png";
 import Button from "../../components/Button";
+import ProductsPreview from "../../components/ProductsPreview";
 
 const Home = () => {
   return (
@@ -14,11 +15,18 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="w-screen h-screen">
+      {/* <section className="w-screen h-screen">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
         neque cupiditate! Rerum fuga quaerat alias totam, aliquid numquam
         temporibus. Laboriosam vel minus facere sunt repellat soluta maxime
         dolorem similique doloribus.
+      </section> */}
+
+      <section className="container flex flex-wrap items-center justify-between w-2/3 py-4 mx-auto ">
+        {/* // TODO: add extra layer of x padding 
+        // TODO: turn this into global style set */}
+        {/* change back to w-full?? */}
+        <ProductsPreview></ProductsPreview>
       </section>
     </div>
   );
