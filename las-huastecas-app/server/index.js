@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require("express"); // server framework to pass configurations
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
@@ -30,4 +30,4 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-app.use("/api/", productRouter);
+app.use("/api/", productRouter); // get routers from other file

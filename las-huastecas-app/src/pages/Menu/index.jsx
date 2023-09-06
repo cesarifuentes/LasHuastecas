@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../components/Button";
-import FoodCard from "../../components/FoodCard";
-import enchiladas from "../../assets/food/enchiladas.png";
+// import FoodCard from "../../components/FoodCard";
+// import enchiladas from "../../assets/food/enchiladas.png";
 
 const Menu = () => {
   return (
@@ -36,12 +36,12 @@ const Menu = () => {
         </div>
         <br /> <br />
         {/* items */}
-        <FoodCard
+        {/* <FoodCard
           image={enchiladas}
           name="Enchiladas"
           description="5 corn tortillas covered in tomato sauce and cheese. Served with beans & cecina."
           price="6.50"
-        ></FoodCard>
+        ></FoodCard> */}
       </section>
     </div>
   );

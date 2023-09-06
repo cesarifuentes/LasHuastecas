@@ -1,6 +1,5 @@
-export const products = [
+module.exports = [
   {
-    id: "product-1",
     name: "T'ikidh Pak'ak'",
     description:
       "3 corn tortillas filled with a cactus, tomato, and onion salsa.",
@@ -9,7 +8,6 @@ export const products = [
     category: "Tacos",
   },
   {
-    id: "product-2",
     name: "Estrujadas",
     description:
       "Crushed up corn tortillas covered in chile, pork lard, beans, and cheese. Served with avocado.",
@@ -18,7 +16,6 @@ export const products = [
     category: "Platters",
   },
   {
-    id: "product-3",
     name: "Bocoles",
     description:
       "5 thick corn tortillas filled with chilis and beans. Served with avocado and cheese.",
@@ -27,7 +24,6 @@ export const products = [
     category: "Breakfast",
   },
   {
-    id: "product-4",
     name: "Tamales Verdes de Cominos",
     description:
       "3 Chicken tamales jalapeño, cumin, cilantro and green tomato.",
@@ -36,7 +32,6 @@ export const products = [
     category: "Platters",
   },
   {
-    id: "product-5",
     name: "Zacahuil",
     description:
       "Baked corn masa filled with chile, chicken, and pork. Served with pickled vegetables.",
@@ -45,7 +40,6 @@ export const products = [
     category: "Platters",
   },
   {
-    id: "product-6",
     name: "Jacubes con Camaron",
     description: "Shrimp and cactus in a chili-based soup.",
     price: 8.0,
@@ -53,7 +47,6 @@ export const products = [
     category: "Broth",
   },
   {
-    id: "product-7",
     name: "Mole de Guajolote",
     description: "Turkey mole served with rice.",
     price: 8.0,
@@ -61,7 +54,6 @@ export const products = [
     category: "Platters",
   },
   {
-    id: "product-8",
     name: "Enchiladas Huastecas",
     description:
       "3 corn tortillas covered in tomato, red chile, and green chile sauce. Served with cecina, beans, and a salad.",
@@ -70,7 +62,6 @@ export const products = [
     category: "Platters",
   },
   {
-    id: "product-9",
     name: "Tlapanilli de Castilán",
     description:
       "Catinlán beans made with chile, avocado leaves, and corn masa.",
