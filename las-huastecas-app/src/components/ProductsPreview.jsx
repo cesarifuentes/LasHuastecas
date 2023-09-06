@@ -34,23 +34,27 @@ const ProductsPreview = () => {
       .catch((e) => console.log(e));
   }, []);
 
+  const onAddProduct = (product) => {
+    console.log(product);
+  };
+
   return (
-    <Carousel responsive={responsive}>
-      {products.length > 0 &&
-        products.map((product, index) => {
-          return (
-            <div className="w-full p-3">
-              <FoodCard
-                key={index}
-                image={product.image}
-                name={product.name}
-                description={product.description}
-                price={product.price}
-              ></FoodCard>
-            </div>
-          );
-        })}
-    </Carousel>
+    <>
+      <Carousel responsive={responsive} className="w-full">
+        {products.length > 0 &&
+          products.map((product, index) => {
+            return (
+              <div className="w-full p-3">
+                <FoodCard
+                  key={index}
+                  product={product}
+                  onAddProduct={onAddProduct}
+                />
+              </div>
+            );
+          })}
+      </Carousel>
+    </>
   );
 };
 

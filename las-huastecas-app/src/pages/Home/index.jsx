@@ -15,18 +15,20 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <section className="w-screen h-screen">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-        neque cupiditate! Rerum fuga quaerat alias totam, aliquid numquam
-        temporibus. Laboriosam vel minus facere sunt repellat soluta maxime
-        dolorem similique doloribus.
-      </section> */}
 
       <section className="container flex flex-wrap items-center justify-between w-2/3 py-4 mx-auto ">
         {/* // TODO: add extra layer of x padding 
         // TODO: turn this into global style set */}
         {/* change back to w-full?? */}
+        <h1>hello</h1>
         <ProductsPreview></ProductsPreview>
+      </section>
+
+      <section className="container flex flex-wrap items-center justify-between w-full py-4 mx-auto ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+        neque cupiditate! Rerum fuga quaerat alias totam, aliquid numquam
+        temporibus. Laboriosam vel minus facere sunt repellat soluta maxime
+        dolorem similique doloribus.
       </section>
     </div>
   );
