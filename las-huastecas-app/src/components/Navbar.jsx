@@ -4,7 +4,7 @@ import cart from "../assets/cart.svg";
 import profile from "../assets/profile.svg";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
   return (
     <nav className="">
       <div className="bg-black/[.4]">
@@ -34,7 +34,14 @@ const Navbar = () => {
               <h5>Catering</h5>
             </Link>
             {/* <img className="" src={profile} alt="profile" /> */}
-            <img className="" src={cart} alt="cart" />
+            <Link to={"/cart"} className="relative">
+              <img src={cart} alt="cart" />
+              {cartCount > 0 ? (
+                <div className="absolute inline-flex items-center justify-center w-full p-1 bg-red-700 rounded-full left-3 -bottom-2">
+                  {cartCount}
+                </div>
+              ) : null}
+            </Link>
           </div>
         </div>
       </div>
