@@ -12,8 +12,21 @@ This is a food ordering app that I built for a local mexican restaruant. All con
 
 ## Installation & Usage
 
+Run MongoDB service.
+
 ```
+brew services start mongodb-community
+```
+
+```
+cd las_huastecas
 npm start
+```
+
+```
+cd server
+npm install express body-parser cors mongoose nodemon
+node index.js
 ```
 
 ## Contributing
