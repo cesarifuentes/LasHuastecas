@@ -2,11 +2,9 @@ import React from "react";
 import AddProduct from "./AddProduct";
 
 const FoodCard = ({ product, onAddProduct }) => {
-  // const { product } = props.product; // same as -> const user = props.user;
-
-  // const addProduct = () => {
-  //   // TODO:
-  // };
+  const addProduct = () => {
+    onAddProduct(product);
+  };
 
   return (
     <div>
@@ -24,7 +22,7 @@ const FoodCard = ({ product, onAddProduct }) => {
           <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
             <p>${product.price}</p>
           </span>
-          <AddProduct onAddProduct={onAddProduct}></AddProduct>
+          <AddProduct onAddProduct={addProduct}></AddProduct>
         </div>
       </div>
     </div>
