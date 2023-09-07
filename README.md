@@ -26,7 +26,7 @@ npm start
 ```
 cd server
 npm install express body-parser cors mongoose nodemon
-node index.js
+node index.js || npx nodemon index.js
 ```
 
 ## Contributing
