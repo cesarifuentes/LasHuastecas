@@ -1,12 +1,12 @@
+<h1 align="center">
+  🇲🇽 <br> Las Huastecas
+</h1>
+
 # Las Huastecas
 
 ![Static Badge](https://img.shields.io/badge/version-1.0-blue)
 ![Static Badge](https://img.shields.io/badge/build-passing-brightgreen)
 ![Static Badge](https://img.shields.io/badge/repo_status-active-brightgreen)
-[![General badge](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&logoWidth=30.svg)]()
-[![General badge](https://img.shields.io/badge/-ExpressJS-000000?logo=express&logoColor=white&logoWidth=30.svg)]()
-[![General badge](https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=white&logoWidth=30.svg)]()
-[![General badge](https://img.shields.io/badge/-NodeJS-339933?logo=node.js&logoColor=white&logoWidth=30.svg)]()
 
 This is a food ordering app that I built for a local mexican restaruant. All contact information has been altered at the moment.
 
